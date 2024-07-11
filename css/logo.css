@@ -1,0 +1,21 @@
+/*除掉網頁預設留白*/
+body {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+/*LOGO 相關css*/
+#above_bkground{
+    background-color: black;
+    padding-top: 6px;
+}
+
+#LOGO_img{
+    text-align: center;
+}
+#LOGO_img>img{
+    width:10%;
+    height:10%;
+    padding: 10px 10px 10px 10px;
+}
