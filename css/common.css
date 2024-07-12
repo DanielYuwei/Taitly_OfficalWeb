@@ -1,0 +1,43 @@
+/*除掉網頁預設留白*/
+body {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-family: Arial Black;
+}
+
+/*LOGO 相關css*/
+#above_bkground{
+    background-color: black;
+    padding-top: 6px;
+}
+
+#LOGO_img{
+    text-align: center;
+}
+#LOGO_img>img{
+    width:120px;
+    padding: 1% 1% 1% 1%;
+}
+
+/*funtion_list*/
+#funtion_list{
+    margin-left:30%; 
+    font-weight: 900;
+    font-size: 20px;
+}
+#funtion>a{
+    padding: 8px 10px ;
+    text-decoration: none;
+    /* border: 1px solid; 測試用 */
+}
+
+#funtion_type_space{
+    padding: 0px 10px;
+}
+
+#main_funtion>a{
+    padding: 8px 5px ;
+    text-decoration: none;
+    border: 1px solid; /*測試用*/
+}
