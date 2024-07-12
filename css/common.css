@@ -1,4 +1,4 @@
-/*除掉網頁預設留白*/
+/*除掉網頁預設兩邊留白*/
 body {
     margin: 0px;
     padding: 0px;
@@ -15,7 +15,7 @@ body {
 #LOGO_img{
     text-align: center;
 }
-#LOGO_img>img{
+#LOGO_img>a>img{
     width:120px;
     padding: 1% 1% 1% 1%;
 }
@@ -23,21 +23,24 @@ body {
 /*funtion_list*/
 #funtion_list{
     margin-left:30%; 
+    padding-bottom: 5px;
     font-weight: 900;
     font-size: 20px;
 }
 #funtion>a{
+    color: black;
     padding: 8px 10px ;
     text-decoration: none;
     /* border: 1px solid; 測試用 */
 }
 
-#funtion_type_space{
-    padding: 0px 10px;
+#funtion>a:hover{
+    text-decoration:underline;
+    text-decoration-thickness: 4px;
 }
 
-#main_funtion>a{
-    padding: 8px 5px ;
-    text-decoration: none;
-    border: 1px solid; /*測試用*/
+#funtion_type_space{
+    padding: 0px 20px;
 }
+
+
