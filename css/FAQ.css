@@ -44,9 +44,15 @@
 
 /*-------------------------*/
 
+/*FAQ 內容部分*/
+#FAQ_content{
+    text-align: center;
+    width: 1200px;
+    margin: auto;
+}
+
 /*FAQ 內容_標題*/
 #FAQ_search_title{
-    text-align: center;
     padding: 50px 0px 40px 0px;
     color: gray;
     font-size: 30px;
@@ -61,4 +67,12 @@
     width: 1000px;
     height: 40px;
     font-size: 16px;
+    border: 1px solid rgb(192, 192, 192);
+}
+
+/*FAQ 內容 產品說明書區域*/
+#FAQ_product_instructions{
+    margin: 60px 50px 0px 50px;
+    border: 1px solid rgb(192, 192, 192);
+    width: 600px;
 }

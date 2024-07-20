@@ -39,7 +39,7 @@ header{
 
 #search_icon>img{
     height: 14px;
-    width: 17.5px;
+    width: 16.5px;
 }
 
 /*funtion_list*/
@@ -66,4 +66,8 @@ header{
     padding: 0px 20px;
 }
 
+/*最底下的詳細內容(footer)*/
+footer{
+    background-color: black;
+}
 
