@@ -43,3 +43,22 @@
 }
 
 /*-------------------------*/
+
+/*FAQ 內容_標題*/
+#FAQ_search_title{
+    text-align: center;
+    padding: 50px 0px 40px 0px;
+    color: gray;
+    font-size: 30px;
+}
+
+/*FAQ 內容 搜尋欄*/
+#FAQ_search_inputtext{
+    text-align: center;
+}
+
+#FAQ_search_inputtext>input{
+    width: 1000px;
+    height: 40px;
+    font-size: 16px;
+}
