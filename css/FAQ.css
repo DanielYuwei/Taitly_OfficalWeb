@@ -49,9 +49,13 @@
     text-align: center;
     width: 1200px;
     margin: auto;
+    background-color: white;
 }
 
-/*FAQ 內容_標題*/
+/*FAQ 內容_標題*//**/
+#FAQ{
+    background-color: white;
+}
 #FAQ_search_title{
     padding: 50px 0px 40px 0px;
     color: gray;
