@@ -7,6 +7,9 @@ body {
     padding-bottom:900px;
     background-color: white;
 }
+a{
+    text-decoration: none;
+}
 
 /*LOGO 相關css*/
 header{

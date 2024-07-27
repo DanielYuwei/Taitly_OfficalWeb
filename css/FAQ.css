@@ -72,11 +72,88 @@
     height: 40px;
     font-size: 16px;
     border: 1px solid rgb(192, 192, 192);
+    margin-bottom: 20px;
 }
 
-/*FAQ 內容 產品說明書區域*/
-#FAQ_product_instructions{
-    margin: 60px 50px 0px 50px;
-    border: 1px solid rgb(192, 192, 192);
-    width: 600px;
+/*FAQ 內容 各項區域區域*/
+#FAQ_detail_content{
+    display: flex;
+    flex-direction:row;
+    padding-bottom: 50px;
+}
+
+#FAQ_detail_content_left{
+    display: flex;
+    flex-direction:column;
+    text-align: left;
+}
+#FAQ_detail_content_right{
+    display: flex;
+    flex-direction:column;
+    text-align: left;
+}
+#detail_content{
+    border-radius: 8px;
+    border: 0.5px solid rgb(179, 179, 179);
+    width: 558px;
+    margin: 25px 20px 0px 20px;
+}
+#detail_title{
+    font-weight:600;
+    color: rgb(83, 83, 83);
+    margin:20px 0px 20px 25px;
+}
+#detail_num{
+    color: rgb(197, 197, 197);
+    font-family:微軟正黑體;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+a>#detail_FAQ_content_first:hover{
+    background-color: rgb(245, 245, 245);
+}
+a>#detail_FAQ_content:hover{
+    background-color: rgb(245, 245, 245);
+}
+#detail_FAQ_content_first{
+    border-radius: 0px 0px 8px 8px;
+    border-top: 0.5px solid gray;
+    padding: 20px 0px 10px 25px;
+    font-size: 15px;
+    color: black;
+}
+#detail_FAQ_content{
+    border-radius: 0px 0px 8px 8px;
+    padding: 10px 0px 10px 25px;
+    font-size: 15px;
+    color: black;
+}
+
+/*see detail*/
+#see_detail{
+    color: black;
+    padding: 10px 0px 10px 25px;
+    border-top: 0.5px solid gray;
+    font-size: 12px;
+    font-weight:900;
+    border-radius: 0px 0px 8px 8px;
+}
+a>#see_detail:hover{
+background-color: rgb(245, 245, 245);
+}
+
+/*Contact Us*/
+#Contact_us{
+    text-align: center;
+    padding-bottom: 30px;
+    color: gray;
+}
+#Contact_us>p{
+    color: black;
+    font-weight: bold;
+}
+#Contact_us>a{
+    color: rgb(84, 84, 202);
+    font-weight: bolder;
 }
