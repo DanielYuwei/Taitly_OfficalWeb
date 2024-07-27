@@ -94,9 +94,10 @@
 }
 #detail_content{
     border-radius: 8px;
-    border: 0.5px solid rgb(179, 179, 179);
+    border: 0.5px solid rgb(220, 220, 220);
     width: 558px;
     margin: 25px 20px 0px 20px;
+    box-shadow: 1px 1px 1px 1px rgb(200, 200, 200);
 }
 #detail_title{
     font-weight:600;
@@ -118,7 +119,7 @@ a>#detail_FAQ_content:hover{
 }
 #detail_FAQ_content_first{
     border-radius: 0px 0px 8px 8px;
-    border-top: 0.5px solid gray;
+    border-top: 0.5px solid rgb(220, 220, 220);
     padding: 20px 0px 10px 25px;
     font-size: 15px;
     color: black;
@@ -134,7 +135,7 @@ a>#detail_FAQ_content:hover{
 #see_detail{
     color: black;
     padding: 10px 0px 10px 25px;
-    border-top: 0.5px solid gray;
+    border-top: 0.5px solid rgb(220, 220, 220);;
     font-size: 12px;
     font-weight:900;
     border-radius: 0px 0px 8px 8px;
