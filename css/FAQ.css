@@ -9,6 +9,8 @@
     width: 100%;
     height:100% ;
 }
+
+
 /*霧濛濛效果*/
 #gray_bkground{
     background-color: gray;
@@ -40,6 +42,19 @@
     padding-right: 15%;
     font-size: 18px;
     font-family:  "Helvetica", "Arial","LiHei Pro","黑體-繁","微軟正黑體", sans-serif;
+}
+
+@media screen  and (max-width:500px) {
+    #FAQ_img{
+        width: 100%;
+        height:200px;
+    }
+    #img_text_title{
+        font-size: 20px;
+    }
+    #img_text_moment{
+        font-size: 6px;
+    }
 }
 
 /*-------------------------*/
