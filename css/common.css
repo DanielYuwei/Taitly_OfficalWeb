@@ -71,7 +71,6 @@ nav{
     padding: 8px 17px ;
     text-decoration: none;
 }
-/**/
 
 #funtion>a:hover{
     text-decoration:underline;
@@ -81,6 +80,51 @@ nav{
 #funtion_type_space{
     padding: 0px 20px;
 }
+
+/*手機用懸浮功能表*/
+#float_func{
+    display: none;
+}
+#floating_but{
+    margin-top: -44px;
+}
+#menuButton {
+    background-color: white;
+    border: none;
+    padding: 10px 5px;
+    cursor: pointer;
+    z-index: 1000; /* 确保按钮在其他元素之上 */
+    width: 50px;
+    height: 45px;
+
+}
+#menuButton img{
+    width: 50%;
+    height: 100%;
+}
+
+#floatingMenu {
+    position: fixed;
+    top: 0px;
+    left: -300px; /* 初始隐藏 */
+    width: 300px;
+    height: 100%;
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    transition: left 0.3s ease; /* 动画效果 */
+    z-index: 999; /* 确保菜单在按钮下面 */
+}
+
+#floatingMenu a {
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    width: 80%;
+    text-align: center;
+}
+
 
 /*最底下的詳細內容(footer)*/
 footer{
@@ -199,7 +243,9 @@ footer{
     }
     #footer_content{
         flex-direction: column;
-        width: 100%;
+        width: 90%;
+
+    
     }
     #content_choose{
         width: 85%;
@@ -229,7 +275,7 @@ footer{
     #content{
         margin: auto;
         text-align: center;
-        width: 400px;
+        width: 350px;
         height: 220px;
         flex-wrap: wrap;
         /* border: 1px solid black; */
@@ -239,5 +285,8 @@ footer{
     }
     #funtion_list,#icon_function{
         display: none;
+    }
+    #float_func{
+        display:flex
     }
 }

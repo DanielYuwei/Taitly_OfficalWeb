@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="../css/FAQ_detail.css">
     <!---->
     <script src="../js/FAQ_detail.js"></script>
+    <script src="../js/prepare_msg.js"></script>
 </head>
 
 <!--LOGO and funtion-->
@@ -44,8 +45,32 @@
             </td>
         </tr>
     </table>
+ 
 
+    
 </header>
+
+<!--手機專用 懸浮功能列-->
+<div id="float_func">
+    <div id="floating_but">
+        <button type="button"id="menuButton" onclick="floating_func();" ><img src="../images/menu.jpg"></button>
+    </div>
+    
+    <div id="floatingMenu">
+        <a href="javascript:prepare_msg();">Search</a>
+        <a href="javascript:prepare_msg();">Member</a>
+        <a href="javascript:prepare_msg();">Favorite</a>
+        <a href="javascript:prepare_msg();">Shopping Car</a>
+        <a href="javascript:prepare_msg();">Product</a>
+        <a href="javascript:prepare_msg();">Shop</a>
+        <a href="javascript:prepare_msg();">Reviews</a>
+        <a href="javascript:prepare_msg();">Resources</a>
+        <a href="javascript:prepare_msg();">How To Buy</a>
+        <a href="../pages/FAQ.html">FAQs</a>
+        <a href="../pages/contact_us.html">Contact</a>
+    </div>
+</div>
+
 
 <!--功能欄位-->
 <nav>
@@ -209,7 +234,7 @@
         </div>
         <div id="Contact_us">
             <p>Contact Us</p>
-            No Answers To Your Questions? <a href="">Contact Us Now!</a>
+            No Answers To Your Questions? <a href="../pages/contact_us.html">Contact Us Now!</a>
         </div>
     </div>
 </body>
