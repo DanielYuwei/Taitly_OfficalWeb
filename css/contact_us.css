@@ -44,11 +44,21 @@
 /*----------------------------*/
 
 /*右邊*/
+#inputtype_phone{
+    display: none;
+}
+#inputtype_computer{
+    display: block;
+}
 #imfor_content{
     background-color: rgb(240, 240, 240);
     width: 100%;
     height: 350px;
     padding: 40px;
+}
+
+#subject_cont,name_cont{
+    width:47%;
 }
 
 #input_colume{
@@ -120,8 +130,9 @@
     /*contact內容*/
     #contact_cont{
         flex-direction:column;
-        width: 85%;
+        width: 90%;
     }
+
     /*Contact Us 標題及說明*/
     #contact_title{
         width: 95%;
@@ -142,4 +153,47 @@
         line-height: 20px;
         margin-bottom: 25px;
     }
+
+    /*輸入資料表格*/
+    #inputtype_phone{
+        display: block;
+    }
+
+    #inputtype_computer{
+        display: none;
+    }
+    #right_content{
+        width: 90%;
+        padding:0px 20px;
+    }
+
+    /*輸入資料欄位*/
+    #input_area{
+        padding: 5px 18px;
+    }
+    #input_colume{
+        margin: 2px 0px 0px 0px;
+        padding: 3px 0px;
+        width:260px;
+        height:30px;
+    }
+    #input_area label {
+        font-size: 14px;
+        left: 26px;
+    }
+    #imfor_content{
+        width: 100%;
+        height: 300px;
+        padding: 0px;
+    }
+
+    /*按鈕*/
+    #send_button{
+        padding: 10px 30px;
+        margin: 5px 0px 15px 20px;
+        width: 150px;
+        height: 35px;
+        font-size: 12px;
+    }
+    
 }

@@ -21,14 +21,14 @@
     <div id = 'LOGO_img'>
         <a href="../index.html">
             <img src="../images/logo.jpg">
-        </a> 
+        </a>
     </div>
 
     <!--LOGO旁icon功能-->
     <table id="icon_function">
         <tr>
             <td id="icon_img">
-                <a href="" id="search_icon"><img src="../images/small_icon/search_icon.png"></a>
+                <a href="javascript:prepare_msg();" id="search_icon"><img src="../images/small_icon/search_icon.png"></a>
             </td>
 
             <td id="icon_img">
@@ -36,11 +36,11 @@
             </td>
 
             <td id="icon_img">
-                <a href="" id="search_icon"><img src="../images/small_icon/wishlist_icon.png"></a>
+                <a href="javascript:prepare_msg();" id="search_icon"><img src="../images/small_icon/wishlist_icon.png"></a>
             </td>
 
             <td id="icon_img">
-                <a href="" id="search_icon"><img src="../images/small_icon/shopping_icon.png"></a>
+                <a href="javascript:prepare_msg();" id="search_icon"><img src="../images/small_icon/shopping_icon.png"></a>
             </td>
         </tr>
     </table>
@@ -51,17 +51,26 @@
 <nav>
     <table id="funtion_list">
            <tr>
-               <td id="funtion" ><a href="" >Product</a></td>
-               <td id="funtion" ><a href="" >Product</a></td>
-               <td id="funtion" ><a href="" >Product</a></td>
-               <td id="funtion" ><a href="" >Product</a></td>
-               <td id="funtion" ><a href="" >Product</a></td>
+               <!--暫時未完成，先不放上網址-->
+               <!-- <td id="funtion" ><a href="" >Product</a></td>
+               <td id="funtion" ><a href="" >Shop</a></td>
+               <td id="funtion" ><a href="" >Reviews</a></td>
+               <td id="funtion" ><a href="" >Resources</a></td>
+               <td id="funtion" ><a href="" >How To Buy</a></td> -->
+               
+               <td id="funtion" class="temporary" onclick="prepare_msg()">Product</td>
+               <td id="funtion" class="temporary" onclick="prepare_msg()">Shop</td>
+               <td id="funtion" class="temporary" onclick="prepare_msg()">Reviews</td>
+               <td id="funtion" class="temporary" onclick="prepare_msg()">Resources</td>
+               <td id="funtion" class="temporary" onclick="prepare_msg()">How To Buy</td>
+
                <td id="funtion_type_space"></td>
-               <td id="funtion" ><a href="FAQ.html" style="text-decoration:underline;text-decoration-thickness: 4px;">FAQs</a></td>
-               <td id="funtion" ><a href="" >Contact</a></td>
+               <td id="funtion" ><a href="../pages/FAQ.html"  style="text-decoration:underline;text-decoration-thickness: 4px;">FAQs</a></td>
+               <td id="funtion" ><a href="../pages/contact_us.html">Contact</a></td>
            </tr>
     </table>
 </nav>
+
 
 <body>
     <!--FAQ 裝飾圖片-->
@@ -217,7 +226,7 @@
                 EMAIL FOR US
             </div>
             <div id="content_choose">
-                <p><a href="mailto: kaidancomp0401@gmail.com">hellotaitly@outlook.com</a></p>
+                <p><a href="mailto:hellotaitly@outlook.com">hellotaitly@outlook.com</a></p>
                 Thank you for reaching out to us. We value your feedback and inquiries. Our team is available Monday through Friday and will respond to your message promptly.
             </div>
         </div>
@@ -225,20 +234,36 @@
             <div id="content_title">
                 MAIN MENU
             </div>
+
+            <div id="content_choose">
+               <div id="MENU_choose" ><a href="javascript:prepare_msg();" >Product&nbsp;(developed)</a></div>
+               <div id="MENU_choose" ><a href="javascript:prepare_msg();" >Shop&nbsp;(developed)</a></div>
+               <div id="MENU_choose" ><a href="javascript:prepare_msg();" >Reviews&nbsp;(developed)</a></div>
+               <div id="MENU_choose" ><a href="javascript:prepare_msg();" >Resources&nbsp;(developed)</a></div>
+               <div id="MENU_choose" ><a href="javascript:prepare_msg();" >How To Buy&nbsp;(developed)</a></div>
+               <div id="MENU_choose" ><a href="../pages/FAQ.html" >FAQs</a></div>
+               <div id="MENU_choose" ><a href="../pages/contact_us.html" >Contact</a></div>
+            </div>
         </div>
         <div id="content">
             <div id="content_title">
                 QUICK CHOOSE
             </div>
+
+            <div id="content_choose">
+                <div id="MENU_choose" ><a href="FAQ_FAQs.html?question=Why%20is%20the%20cured%20resin%20surface%20uneven?">Why is the cured resin surface uneven?</a></div>
+                <div id="MENU_choose" ><a href="FAQ_FAQs.html?question=Why%20does%20the%20ripple%20phenomenon%20occur?">Why does the ripple phenomenon occur?</a></div>
+                <div id="MENU_choose" ><a href="FAQ_FAQs.html?question=How%20long%20does%20it%20take%20for%20epoxy%20resin%20to%20solidify?">How long does it take for epoxy resin to solidify?</a></div>
+                <div id="MENU_choose" ><a href="FAQ_FAQs.html?question=What%20is%20epoxy%20resin?">What is epoxy resin?</a></div>
+             </div>
         </div>
     </div>
 
     <div id="footer_bottom_content">
         <div id="copyright">
-            &nbsp;&nbsp;© 2024, Taitly US. Powered by Taitly.
+            &nbsp;&nbsp;© 2024, Taitly US. Powered by Taitly..
         </div>
         <div id="social_net" >
-            <a href=""><img src="../images/social_net_icon/instagram.png" id="footer_icon_img"></a>
             <a href=""><img src="../images/social_net_icon/instagram.png" id="footer_icon_img"></a>
         </div>
     </div>

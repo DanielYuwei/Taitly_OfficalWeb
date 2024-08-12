@@ -37,3 +37,25 @@ a>#detail_title:hover{
 #FAQs_detail_content_left{
     padding-bottom: 50px;
 }
+
+
+@media screen  and (max-width:500px) {
+    #FAQ_detail_title{
+        padding: 25px 0px;
+        margin-left: 10px;
+        font-size: 20px;
+    }
+    #detail_title{
+        font-size: 14px;
+        padding:15px 0px ;
+    }
+    #detail_num{
+        font-size: 12px;
+        padding:15px 0px 15px 25px;
+        margin: 0px;
+        color: gray;
+    }
+    #detail_content{
+        width: 80%;
+    }
+}

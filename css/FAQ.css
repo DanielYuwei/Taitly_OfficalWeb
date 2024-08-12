@@ -45,18 +45,7 @@
     line-height: 28px;
 }
 
-@media screen  and (max-width:500px) {
-    #FAQ_img{
-        width: 100%;
-        height:200px;
-    }
-    #img_text_title{
-        font-size: 20px;
-    }
-    #img_text_moment{
-        font-size: 6px;
-    }
-}
+
 
 /*-------------------------*/
 
@@ -178,6 +167,10 @@ background-color: rgb(245, 245, 245);
 
 /*RWD*/
 @media screen  and (max-width:500px) {
+    #FAQ_img{
+        width: 100%;
+        height:200px;
+    }
     #FAQ_detail_content{
         flex-direction:column;
     }
@@ -221,8 +214,10 @@ background-color: rgb(245, 245, 245);
         font-size: 20px;
     }
     #img_text_moment{
-        line-height: 8px;
-        font-size: 6px;
+        line-height: 12px;
+        font-size: 10px;
+        padding-left: 5%;
+        padding-right: 5%;
     }
     #img_text{
         width: 80%;

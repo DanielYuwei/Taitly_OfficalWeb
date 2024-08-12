@@ -114,8 +114,9 @@
             <!--右邊-->
             <div id="right_content">
                 <table id="imfor_content">
-                    <tr style="display: flex;flex-direction: row;">
-                        <td style="width:47%;">
+                    <!--電腦版畫面-->
+                    <tr>
+                        <td id="name_cont">
                             <div id="input_area">
                                 <input type="text" placeholder="" id="input_colume" name="name_input">
                                 <label >Name</label>
@@ -124,9 +125,19 @@
 
                         <td style="width: 3%;">&nbsp;</td>
 
-                        <td style="width:47%;">
+                        <td id="inputtype_computer">
                             <div id="input_area">
                                 <input type="text" placeholder="" id="input_colume" name="subject_input">
+                                <label >Subject</label>
+                                <div id="error_text" name="Subject_error">※&nbsp;Please enter the subject.</div>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <tr id="inputtype_phone">
+                        <td id="subject_cont">
+                            <div id="input_area">
+                                <input type="text" placeholder="" id="input_colume" name="subject_input_phone">
                                 <label >Subject</label>
                                 <div id="error_text" name="Subject_error">※&nbsp;Please enter the subject.</div>
                             </div>
