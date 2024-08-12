@@ -65,6 +65,13 @@ nav{
     text-decoration: none;
     /* border: 1px solid; 測試用 */
 }
+/*等完成開發葉面再刪除*/
+.temporary{
+    color: rgb(150, 150, 150);
+    padding: 8px 17px ;
+    text-decoration: none;
+}
+/**/
 
 #funtion>a:hover{
     text-decoration:underline;
@@ -93,7 +100,7 @@ footer{
 }
 
 #footer_LOGOimg>img{
-    padding: 150px 0px 150px 0px;
+    padding: 150px 0px 100px 0px;
     width: 160px;
     height: 50px;
 }

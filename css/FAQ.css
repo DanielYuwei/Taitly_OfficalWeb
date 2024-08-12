@@ -42,6 +42,7 @@
     padding-right: 15%;
     font-size: 18px;
     font-family:  "Helvetica", "Arial","LiHei Pro","黑體-繁","微軟正黑體", sans-serif;
+    line-height: 28px;
 }
 
 @media screen  and (max-width:500px) {
@@ -67,7 +68,7 @@
     background-color: white;
 }
 
-/*FAQ 內容_標題*//**/
+/*FAQ 內容_標題*/
 #FAQ{
     background-color: white;
 }

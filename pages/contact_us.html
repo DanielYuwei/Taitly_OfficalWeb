@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en" ontouchmove>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taitly | Contact Us</title>
+    <link rel="icon" href="../images/logo.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/contact_us.css">
+    <link rel="stylesheet" href="../css/FAQ.css">
+    <script src="../js/contact_us.js"></script>
+    <script src="../js/prepare_msg.js"></script>
+</head>
+
+<!--LOGO and funtion-->
+<header>
+    <!--上方留一點黑色-->
+    <div id = 'above_bkground'></div>
+
+    <div id = 'LOGO_img'>
+        <a href="../index.html">
+            <img src="../images/logo.jpg">
+        </a>
+    </div>
+
+    <!--LOGO旁icon功能-->
+    <table id="icon_function">
+        <tr>
+            <td id="icon_img">
+                <a href="javascript:prepare_msg();" id="search_icon"><img src="../images/small_icon/search_icon.png"></a>
+            </td>
+
+            <td id="icon_img">
+                <a href="javascript:prepare_msg();" id="search_icon"><img src="../images/small_icon/member_icon.png"></a>
+            </td>
+
+            <td id="icon_img">
+                <a href="javascript:prepare_msg();" id="search_icon"><img src="../images/small_icon/wishlist_icon.png"></a>
+            </td>
+
+            <td id="icon_img">
+                <a href="javascript:prepare_msg();" id="search_icon"><img src="../images/small_icon/shopping_icon.png"></a>
+            </td>
+        </tr>
+    </table>
+
+</header>
+
+<!--功能欄位-->
+<nav>
+    <table id="funtion_list">
+           <tr>
+               <!--暫時未完成，先不放上網址-->
+               <!-- <td id="funtion" ><a href="" >Product</a></td>
+               <td id="funtion" ><a href="" >Shop</a></td>
+               <td id="funtion" ><a href="" >Reviews</a></td>
+               <td id="funtion" ><a href="" >Resources</a></td>
+               <td id="funtion" ><a href="" >How To Buy</a></td> -->
+               
+               <td id="funtion" class="temporary" onclick="prepare_msg()">Product</td>
+               <td id="funtion" class="temporary" onclick="prepare_msg()">Shop</td>
+               <td id="funtion" class="temporary" onclick="prepare_msg()">Reviews</td>
+               <td id="funtion" class="temporary" onclick="prepare_msg()">Resources</td>
+               <td id="funtion" class="temporary" onclick="prepare_msg()">How To Buy</td>
+
+               <td id="funtion_type_space"></td>
+               <td id="funtion" ><a href="../pages/FAQ.html">FAQs</a></td>
+               <td id="funtion" ><a href=""  style="text-decoration:underline;text-decoration-thickness: 4px;">Contact</a></td>
+           </tr>
+    </table>
+</nav>
+
+<!--內容-->
+<body>
+
+<!--FAQ 裝飾圖片-->
+<div id="FAQ_img">
+
+    <!--FAQ 圖片文字-->
+    <div id="img_text">
+        <div id="img_text_title">
+            We’d Love to Hear from You
+        </div>
+        <div id="img_text_moment">
+            Have a question or feedback? We’re eager to hear from you and assist with anything you need. Whether it’s a product inquiry, a suggestion, or just sharing your thoughts, don’t hesitate to reach out. We’re here to support you every step of the way.
+        </div>
+    </div>
+
+    <!--FAQ 圖片霧濛濛效果-->
+    <div id="gray_bkground"></div>
+
+    <img src="../images/FAQ_Related/FAQ_title_img.jpg">
+</div>
+
+    <div id="contact_content">
+        <div id="contact_cont">
+            <!--左邊-->
+            <div id="contact_title">
+
+                <div id= "small_title">
+                    Contact us
+                </div>
+        
+                <div id="question_title">
+                    Do you have any questions that need clarification?
+                </div>
+        
+                <div id="question_title_content">
+                    Reach out to us through the contact form below for any inquiries or support. Simply fill in your details, including a valid <b style="color: black;">'email&nbsp;'</b> address, and our team will get back to you promptly—typically within a few hours on business days. We’re here to help with any questions or issues you may have.
+                </div>
+            </div>
+
+            <!--右邊-->
+            <div id="right_content">
+                <table id="imfor_content">
+                    <tr style="display: flex;flex-direction: row;">
+                        <td style="width:47%;">
+                            <div id="input_area">
+                                <input type="text" placeholder="" id="input_colume" name="name_input">
+                                <label >Name</label>
+                            </div>
+                        </td>
+
+                        <td style="width: 3%;">&nbsp;</td>
+
+                        <td style="width:47%;">
+                            <div id="input_area">
+                                <input type="text" placeholder="" id="input_colume" name="subject_input">
+                                <label >Subject</label>
+                                <div id="error_text" name="Subject_error">※&nbsp;Please enter the subject.</div>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <tr>    
+                        <td colspan="3">
+                            <div id="input_area">
+                                <input type="text" placeholder="" id="input_colume"name="phone_input">
+                                <label >Phone</label>
+                            </div>    
+                        </td>
+                    </tr>
+
+                    <tr>    
+                        <td colspan="3">
+                            <div id="input_area">
+                                <textarea id="input_colume" placeholder="" style="height: 120px;" name="message_input"></textarea>
+                                <label id="textarea_label">Message</label>
+                                <div id="error_text" name="Message_error">※&nbsp;Please enter the Message.</div>
+                            </div>
+                        </td>
+                     </tr>
+
+                    <tr>
+                        <td>
+                            <button id="send_button" onclick="sendMail()">Send Us</button>
+                        </td>
+                    </tr>
+
+                </table>
+            </div>
+        </div>
+    </div>
+    
+
+    
+
+</body>
+
+<!--最底下相關資料-->
+<footer>
+    <div id = 'footer_LOGOimg'>
+        <img src="../images/logo_white.png" >
+    </div>
+
+    <div id="footer_content">
+        <div id="content">
+            <div id="content_title">
+                EMAIL FOR US
+            </div>
+            <div id="content_choose">
+                <p><a href="mailto:hellotaitly@outlook.com">hellotaitly@outlook.com</a></p>
+                Thank you for reaching out to us. We value your feedback and inquiries. Our team is available Monday through Friday and will respond to your message promptly.
+            </div>
+        </div>
+        <div id="content">
+            <div id="content_title">
+                MAIN MENU
+            </div>
+        </div>
+        <div id="content">
+            <div id="content_titlef">
+                QUICK CHOOSE
+            </div>
+        </div>
+    </div
+
+    <div id="footer_bottom_content">
+        <div id="copyright">
+            &nbsp;&nbsp;© 2024, Taitly US. Powered by Taitly..
+        </div>
+        <div id="social_net" >
+            <a href=""><img src="../images/social_net_icon/instagram.png" id="footer_icon_img"></a>
+            <a href=""><img src="../images/social_net_icon/instagram.png" id="footer_icon_img"></a>
+        </div>
+    </div>
+</footer>
+
+</html>
