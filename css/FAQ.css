@@ -174,3 +174,59 @@ background-color: rgb(245, 245, 245);
     color: rgb(84, 84, 202);
     font-weight: bolder;
 }
+
+
+/*RWD*/
+@media screen  and (max-width:500px) {
+    #FAQ_detail_content{
+        flex-direction:column;
+    }
+    #detail_title{
+        font-size: 12px;
+        margin:15px 0px 10px 25px;
+    }
+    #detail_num{
+        font-size: 10px;
+    }
+    #detail_content{
+        width: 250px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    #FAQ_search_title{
+        font-size: 16px;
+        padding: 20px 0px 20px 0px;
+    }
+    #FAQ_search_inputtext>input{
+        width: 80%;
+        height: 20px;
+        font-size: 10px;   
+    }
+    #FAQ_content{
+        width: 100%;
+    }
+    #detail_FAQ_content_first{
+        font-size: 12px;
+    }
+    #detail_FAQ_content{
+        font-size: 12px;
+    }
+    #see_detail{
+        font-size: 10px;
+    }
+    #Contact_us{
+        font-size: 12px;
+    }
+    #img_text_title{
+        font-size: 20px;
+    }
+    #img_text_moment{
+        line-height: 8px;
+        font-size: 6px;
+    }
+    #img_text{
+        width: 80%;
+    }
+
+}
+

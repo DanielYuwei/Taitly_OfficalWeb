@@ -114,3 +114,32 @@
     font-size: 16px;
     overflow: auto;
 }
+
+
+@media screen  and (max-width:500px) {
+    /*contact內容*/
+    #contact_cont{
+        flex-direction:column;
+        width: 85%;
+    }
+    /*Contact Us 標題及說明*/
+    #contact_title{
+        width: 95%;
+        margin: auto;
+    }
+    #small_title{
+        font-size: 12px;
+        margin-bottom: 25px;
+    }
+    
+    #question_title{
+        font-weight: 800;
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+    #question_title_content{
+        font-size: 12px;
+        line-height: 20px;
+        margin-bottom: 25px;
+    }
+}

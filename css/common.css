@@ -4,7 +4,7 @@ body {
     padding: 0px;
     border: 0px;
     font-family:  "Helvetica", "Arial","LiHei Pro","黑體-繁","微軟正黑體", sans-serif;
-    padding-bottom:900px;
+    margin-bottom: 900px;
     background-color: white;
 }
 a{
@@ -87,17 +87,11 @@ footer{
     background-color:black;
     text-align: center;
     position:fixed;
-    top:10%;
+    top:15%;
     z-index: -5;
     width: 100%;
 }
 
-@media screen  and (max-width:500px) {
-    footer{
-        position: relative;
-        z-index: 1;
-    }
-}
 
 #footer_LOGOimg>img{
     padding: 150px 0px 100px 0px;
@@ -138,6 +132,16 @@ footer{
     text-align: left;
     font-size: 16px;
 }
+#MENU_choose{
+    padding: 5px 0px;
+}
+
+#MENU_choose a{
+    color: gray;
+}
+#MENU_choose a:hover{
+    text-decoration: underline;
+}
 
 #content_choose>p>a{
     color:gray;
@@ -152,6 +156,7 @@ footer{
     margin: auto ;
     padding-bottom: 15px;
     display: flex;
+    flex-direction: row;
     border-top: 3px solid gray;
     color: white;
 }
@@ -161,6 +166,7 @@ footer{
     display: flex;
     flex: 1;
     font-size: 14px;
+    color: white;
 }
 #social_net{
     margin-top: 15px;
@@ -176,3 +182,62 @@ footer{
     margin:0px 5px 0px 5px;
 }
 
+/*RWD*/
+@media screen  and (max-width:500px) {
+    /*logo*/
+    #LOGO_img>a>img{
+        width:100px;
+        height: 29px;
+        padding: 3% 0px 0px 0px;
+    }
+    footer{
+        position: relative;
+        z-index: 1;
+    }
+    #footer_LOGOimg>img{
+        display: none;
+    }
+    #footer_content{
+        flex-direction: column;
+        width: 100%;
+    }
+    #content_choose{
+        width: 85%;
+        word-wrap: break-word;
+    }
+    
+    #copyright{
+        font-size: 12px;
+        margin: auto;
+        margin-top: 10px;
+    }
+    /*footer部分*/
+    #footer_bottom_content{
+        width: 100%;
+        flex-direction: column;
+    }
+    #content_title{
+        font-size: 14px;
+    }
+    #content_choose{
+        font-size: 12px;
+
+    }
+    #content_choose>p>a{
+        font-size: 14px;
+    }
+    #content{
+        margin: auto;
+        text-align: center;
+        width: 400px;
+        height: 220px;
+        flex-wrap: wrap;
+        /* border: 1px solid black; */
+    }
+    body{
+        margin-bottom: 0px;
+    }
+    #funtion_list,#icon_function{
+        display: none;
+    }
+}
